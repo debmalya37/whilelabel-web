@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinQiT| White Label Dev Partner | Scale Your Agency</title>
+    <meta name="description" content="Premium white label web development, DevOps, and SEO services for agencies.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            900: '#020617', /* Deepest Blue */
+                            800: '#0f172a', /* Card BG */
+                            500: '#3b82f6', /* Primary Blue */
+                            400: '#60a5fa', /* Highlight */
+                            accent: '#06b6d4', /* Cyan for DevOps vibe */
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom scrollbar for dark theme */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #020617; }
+        ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #3b82f6; }
+        
+        .glass-effect {
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-brand-900 text-slate-300 font-sans antialiased overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 glass-effect border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="text-2xl font-bold text-white tracking-tighter">
+                ThinQiT<span class="text-brand-500">| Dev Partner</span>.
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#services" class="hover:text-brand-400 transition">Services</a>
+                <a href="#process" class="hover:text-brand-400 transition">How it Works</a>
+                <a href="#tech" class="hover:text-brand-400 transition">Tech Stack</a>
+            </div>
+            <a href="#contact" class="px-5 py-2.5 bg-brand-500 hover:bg-brand-600 text-white text-sm font-semibold rounded-lg transition shadow-lg shadow-brand-500/20">
+                Partner With Us
+            </a>
+        </div>
+    </nav>
+
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-brand-500/10 blur-[120px] rounded-full pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-6 text-center relative z-10">
+            <div class="inline-block px-4 py-1.5 mb-6 border border-brand-500/30 rounded-full bg-brand-500/10 text-brand-400 text-xs font-semibold tracking-wide uppercase" data-aos="fade-down">
+                100% White Label Services
+            </div>
+            <h1 class="text-5xl lg:text-7xl font-bold text-white mb-6 tracking-tight leading-tight" data-aos="fade-up" data-aos-delay="100">
+                We Build. You Grow.<br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-brand-accent">Your Silent Tech Partner.</span>
+            </h1>
+            <p class="text-lg text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed" data-aos="fade-up" data-aos-delay="200">
+                Scale your agency without hiring overhead. We provide high-performance Web Dev, DevOps, and SEO services under your brand name.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4" data-aos="fade-up" data-aos-delay="300">
+                <a href="#contact" class="px-8 py-4 bg-brand-500 hover:bg-brand-600 text-white font-semibold rounded-xl transition shadow-xl shadow-brand-500/25">
+                    Get Rate Card
+                </a>
+                <a href="#services" class="px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 font-semibold rounded-xl transition">
+                    View Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-brand-900 relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Our Technical Capabilities</h2>
+                <p class="text-slate-400">Everything you need to deliver enterprise-grade solutions to your clients.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="group p-8 rounded-2xl bg-brand-800 border border-white/5 hover:border-brand-500/50 hover:bg-brand-800/80 transition duration-300" data-aos="fade-up">
+                    <div class="w-12 h-12 bg-brand-500/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-brand-500/20 transition">
+                        <svg class="w-6 h-6 text-brand-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Full Stack Development</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">End-to-end web app development using modern stacks (MERN, Next.js, PWA). Clean, maintainable code.</p>
+                </div>
+
+                <div class="group p-8 rounded-2xl bg-brand-800 border border-white/5 hover:border-brand-500/50 hover:bg-brand-800/80 transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-12 h-12 bg-brand-accent/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-brand-accent/20 transition">
+                        <svg class="w-6 h-6 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-3">DevOps & CI/CD</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Automated pipelines, GitHub Actions, and seamless deployment workflows to reduce time-to-market.</p>
+                </div>
+
+                <div class="group p-8 rounded-2xl bg-brand-800 border border-white/5 hover:border-brand-500/50 hover:bg-brand-800/80 transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-12 h-12 bg-blue-500/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-500/20 transition">
+                        <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Kubernetes & Hosting</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">K8s cluster management, Docker containerization, and VPS/Cloud hosting management (AWS, DigitalOcean).</p>
+                </div>
+
+                <div class="group p-8 rounded-2xl bg-brand-800 border border-white/5 hover:border-brand-500/50 hover:bg-brand-800/80 transition duration-300" data-aos="fade-up">
+                    <div class="w-12 h-12 bg-purple-500/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-purple-500/20 transition">
+                        <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-3">PWA & Mobile Design</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Progressive Web Apps that perform like native mobile apps. Responsive, touch-optimized UI design.</p>
+                </div>
+
+                <div class="group p-8 rounded-2xl bg-brand-800 border border-white/5 hover:border-brand-500/50 hover:bg-brand-800/80 transition duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-12 h-12 bg-green-500/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-green-500/20 transition">
+                        <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Technical SEO</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">On-page optimization, Core Web Vitals improvement, schema markup, and speed optimization audits.</p>
+                </div>
+
+                 <div class="group p-8 rounded-2xl bg-brand-800 border border-white/5 hover:border-brand-500/50 hover:bg-brand-800/80 transition duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-12 h-12 bg-orange-500/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-orange-500/20 transition">
+                        <svg class="w-6 h-6 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-3">Production Support</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Ongoing maintenance, security patching, uptime monitoring, and rapid incident response.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 border-y border-white/5 bg-black/20">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-sm font-semibold text-slate-500 uppercase tracking-widest mb-8">Powering Solutions With</p>
+            <div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition duration-500">
+                <span class="text-xl font-bold text-white">Next.js</span>
+                <span class="text-xl font-bold text-white">Docker</span>
+                <span class="text-xl font-bold text-white">Kubernetes</span>
+                <span class="text-xl font-bold text-white">AWS</span>
+                <span class="text-xl font-bold text-white">Tailwind</span>
+                <span class="text-xl font-bold text-white">React</span>
+                <span class="text-xl font-bold text-white">Node.js</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 relative overflow-hidden">
+        <div class="max-w-3xl mx-auto px-6 relative z-10 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Ready to scale your capacity?</h2>
+            <p class="text-slate-400 mb-10 text-lg">Send us a brief about your agency's needs. We usually respond within 2 hours.</p>
+            
+            <form class="bg-brand-800 p-8 rounded-2xl border border-white/5 shadow-2xl text-left">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Name</label>
+                        <input type="text" class="w-full bg-brand-900 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-500 transition" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Agency Name</label>
+                        <input type="text" class="w-full bg-brand-900 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-500 transition" placeholder="Creative Digital">
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Service Interest</label>
+                    <select class="w-full bg-brand-900 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-brand-500 transition">
+                        <option>General Inquiry</option>
+                        <option>Web Development Support</option>
+                        <option>DevOps & Infrastructure</option>
+                        <option>SEO Services</option>
+                    </select>
+                </div>
+                <button type="button" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-4 rounded-lg transition shadow-lg shadow-brand-500/25">
+                    Request Partnership Info
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-white/5 bg-black/20">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+            <div class="text-lg font-bold text-white mb-4 md:mb-0">
+                ThinQiT<span class="text-brand-500"></span>.
+            </div>
+            <div class="text-slate-500 text-sm">
+                &copy; 2024 ThinQiT. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 50,
+        });
+    </script>
+</body>
+</html>
